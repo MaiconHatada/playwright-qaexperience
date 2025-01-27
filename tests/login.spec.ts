@@ -17,7 +17,7 @@ test('1.entrar na pagina Mark L', async ({ page }) => {
 });
 
 test('2.deve apagar o registro', async ({ page }) => {
-  const deleteButton = page.locator('button[class="_listItemDeleteButton_1kgm5_52"]'); // definição de um objeto
+  const deleteButton = page.locator('button[class="_listItemDeleteButton_1kgm5_5299S"]'); // definição de um objeto
   await deleteButton.click();
 
 });
